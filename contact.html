@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Birds N Paradise & Parrot Gardens</title>
+</head>
+<body>
+
+    <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="cages.html" class="cs-li-link">
+                            Cages
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="contact.html" class="cs-li-link">
+                            Contact
+                        </a>
+                    </li>
+                
+             
+                </ul>
+            </div>
+        </nav>
+       
+    </div>
+</header>
+
+
+<main>
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-541">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Contact Us</h2>
+        </div>
+    </div>
+    <!--Background Color-->
+    <picture class="cs-background">
+      
+        <img aria-hidden="true" loading="lazy" decoding="async" src="images/abouthero.webp" alt="parakeet bird" width="275" height="132">
+        </picture>
+</section>
+
+
+<!-- ============================================ -->
+<!--                 Contact Form                 -->
+<!-- ============================================ -->
+
+<section id="cs-contact-549">
+    <div class="cs-container">
+        <div class="cs-content">
+           
+            <h2 class="cs-title">Interested In More Info?</h2>
+            <p class="cs-text">
+               Please contact us with a phone call or a message, and we will gladly get back to you.
+            </p>
+        </div>
+        <!--Swap the image out for a screenshot of the Google Map location for your client, or you can add the embedded iframe from google and add the cs-background class to it and it should work, remove the animated dots in the CSS if you do that-->
+        <picture class="cs-background">
+            <img loading="lazy" decoding="async" src="./images/birdsmap.webp" alt="appliance" width="1280" height="568" aria-hidden="true">
+        </picture>
+        <!--Form-->
+        <form class="cs-form" id="cs-form-549" name="Contact Form" method="post">
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-549" name="name" placeholder="Name">
+                <img class="cs-icon" loading="lazy" decoding="async" src="./images/user.svg" alt="person icon" width="32" height="32">
+            </label>
+            <label class="cs-label cs-email">
+                Email
+                <input class="cs-input" required type="text" id="email-549" name="email" placeholder="Email">
+                <img class="cs-icon" loading="lazy" decoding="async" src="./images/email.svg" alt="mail icon" width="32" height="32">
+            </label>
+            <label class="cs-label cs-phone">
+                Phone
+                <input class="cs-input" required type="text" id="phone-549" name="phone" placeholder="Phone">
+                <img class="cs-icon" loading="lazy" decoding="async" src="./images/phone-call.svg" alt="phone icon" width="32" height="32">
+            </label>
+            <label class="cs-label cs-phone">
+                How did you hear about us?
+                <input class="cs-input" required type="text" id="phone-549" name="phone" placeholder="Google">
+                <img class="cs-icon" loading="lazy" decoding="async" src="./images/refer.svg" alt="talking icon" width="32" height="32">
+            </label>
+            <label class="cs-label cs-textarea-label">
+                Message
+                <textarea class="cs-textarea" required name="Message" id="message-549" placeholder="Write message..."></textarea>
+            </label>
+            <button class="cs-submit" type="submit">Send</button>
+        </form>
+    </div>
+</section>
+                                
+                                
+
+
+
+
+
+</main>      
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img light" aria-hidden="true" loading="lazy" decoding="async" src="" alt="logo" width="240" height="32">
+            </a>
+         
+        </div>
+        <!-- Links -->
+        <ul class="cs-nav">
+          
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="index.html">Home</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="about.html">About</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="cages.html">Cages</a>
+            </li>
+          
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="cs-contact">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact</span>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" href="tel: 123-456-7890">(123) 456-7890</a>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" href="mailto:info@codestitch.com">birdsnparadise@msn.com</a>
+            </li>
+        
+        </ul>
+    </div>
+</footer>
+                                
+                                
+    
+
+<script src="app.js"></script>
+</body>
+</html>
