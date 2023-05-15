@@ -27,10 +27,13 @@
     padding: 50px;
   }
 }
-    */
 
-
-
+.cs-logo , .logo-birds , p {
+  text-decoration:none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
 
 /*-- -------------------------- -->
 <---     Mobile Navigation      -->
@@ -118,8 +121,8 @@
       z-index: 10;
     }
     #cs-navigation .cs-logo img {
-      width: 100%;
-      height: 100%;
+      width: 50%;
+      height: 50%;
       /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
       object-fit: contain;
     }
@@ -191,7 +194,7 @@
       height: auto;
       padding-bottom: 2.4em;
       opacity: 0;
-      background-color: #fff;
+      background-color:#1F861D;
       box-shadow: inset rgba(0, 0, 0, 0.2) 0px 8px 24px;
       overflow: hidden;
       position: absolute;
@@ -270,7 +273,7 @@
       line-height: 1.2em;
       text-decoration: none;
       margin: 0;
-      color: var(--headerColor);
+      color: #fff;
       display: inline-block;
       position: relative;
     }
@@ -1003,7 +1006,7 @@
     margin-bottom: clamp(1.75rem, 4.17vw, 2.75rem);
   }
   #cs-footer-269 .cs-logo-img {
-    width: 100%;
+    width: 60%;
     height: auto;
   }
   #cs-footer-269 .cs-text {
